@@ -15,9 +15,9 @@
 		3D0011182AD8053F00F0314E /* SplityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0011172AD8053F00F0314E /* SplityUITests.swift */; };
 		3D00111A2AD8053F00F0314E /* SplityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0011192AD8053F00F0314E /* SplityUITestsLaunchTests.swift */; };
 		3D00112C2AD8194200F0314E /* AddCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00112B2AD8194200F0314E /* AddCostView.swift */; };
-		3D00112E2AD829EB00F0314E /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00112D2AD829EB00F0314E /* teste.swift */; };
 		3D89DFC12AD83A6C009BC2FB /* AddMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFC02AD83A6C009BC2FB /* AddMembers.swift */; };
-		3D89DFC52AD84340009BC2FB /* MemberCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFC42AD84340009BC2FB /* MemberCardView.swift */; };
+		3D89DFC52AD84340009BC2FB /* AddNewMemberCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFC42AD84340009BC2FB /* AddNewMemberCardView.swift */; };
+		3D89DFC82AD8484E009BC2FB /* MainProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFC72AD8484E009BC2FB /* MainProfileCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		3D0011172AD8053F00F0314E /* SplityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplityUITests.swift; sourceTree = "<group>"; };
 		3D0011192AD8053F00F0314E /* SplityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D00112B2AD8194200F0314E /* AddCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCostView.swift; sourceTree = "<group>"; };
-		3D00112D2AD829EB00F0314E /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
 		3D89DFC02AD83A6C009BC2FB /* AddMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMembers.swift; sourceTree = "<group>"; };
-		3D89DFC42AD84340009BC2FB /* MemberCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCardView.swift; sourceTree = "<group>"; };
+		3D89DFC42AD84340009BC2FB /* AddNewMemberCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMemberCardView.swift; sourceTree = "<group>"; };
+		3D89DFC72AD8484E009BC2FB /* MainProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProfileCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,12 +148,12 @@
 		3D0011272AD8055B00F0314E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D89DFC62AD84837009BC2FB /* MainProfileCard */,
 				3D89DFC32AD84322009BC2FB /* MemberCard */,
 				3D0011292AD805AA00F0314E /* Home */,
 				3D00112A2AD818D700F0314E /* AddCost */,
 				3D89DFC22AD83AF8009BC2FB /* AddCostManual */,
 				3D0010FD2AD8053D00F0314E /* ContentView.swift */,
-				3D00112D2AD829EB00F0314E /* teste.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,9 +184,17 @@
 		3D89DFC32AD84322009BC2FB /* MemberCard */ = {
 			isa = PBXGroup;
 			children = (
-				3D89DFC42AD84340009BC2FB /* MemberCardView.swift */,
+				3D89DFC42AD84340009BC2FB /* AddNewMemberCardView.swift */,
 			);
 			name = MemberCard;
+			sourceTree = "<group>";
+		};
+		3D89DFC62AD84837009BC2FB /* MainProfileCard */ = {
+			isa = PBXGroup;
+			children = (
+				3D89DFC72AD8484E009BC2FB /* MainProfileCard.swift */,
+			);
+			name = MainProfileCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,9 +329,9 @@
 			files = (
 				3D00112C2AD8194200F0314E /* AddCostView.swift in Sources */,
 				3D0010FE2AD8053D00F0314E /* ContentView.swift in Sources */,
-				3D89DFC52AD84340009BC2FB /* MemberCardView.swift in Sources */,
+				3D89DFC52AD84340009BC2FB /* AddNewMemberCardView.swift in Sources */,
 				3D0010FC2AD8053D00F0314E /* SplityApp.swift in Sources */,
-				3D00112E2AD829EB00F0314E /* teste.swift in Sources */,
+				3D89DFC82AD8484E009BC2FB /* MainProfileCard.swift in Sources */,
 				3D89DFC12AD83A6C009BC2FB /* AddMembers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

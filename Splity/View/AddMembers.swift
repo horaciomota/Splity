@@ -48,13 +48,15 @@ struct AddMembers: View {
                         .padding()
                         .background(Color.gray.opacity(0.2))
                         .cornerRadius(10)
-                    
-                  
                     Text("Members")
                         .font(.system(size: 18, weight: .bold))
                     
-                    MemberCardView()
+                    //MainProfile card
+                    MainProfileCard()
+                    //AddNewMember view
+                    AddNewMemberCardView()
                     
+                    }
                     Spacer()
                     
                     HStack {
@@ -98,7 +100,7 @@ struct AddMembers: View {
             
         } //End of navigation
     }
-}
+
 
 struct AddMembers_Previews: PreviewProvider {
     static var previews: some View {
