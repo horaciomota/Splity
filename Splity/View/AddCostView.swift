@@ -18,7 +18,6 @@ struct AddCostView: View {
 
 
     var body: some View {
-    
         NavigationStack {
             VStack {
                 HStack {
@@ -98,7 +97,7 @@ struct AddCostView: View {
 
                 
                 //Next Button
-                    NavigationLink(destination: AddCostManualView()) {
+                    NavigationLink(destination: AddMembers()) {
                         Text("Next")
                             .frame(maxWidth: .infinity)
                             .font(.system(size: 18, weight: .bold))
