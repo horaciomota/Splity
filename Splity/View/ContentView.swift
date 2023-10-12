@@ -19,7 +19,6 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 62, height: 62)
                     .cornerRadius(12)
-                    .foregroundColor(.red)
             }
             
             //Debt
@@ -35,6 +34,8 @@ struct ContentView: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(Color.green)
+            .cornerRadius(10)
+
             
             //Cost + Total cost
             HStack {
@@ -51,6 +52,8 @@ struct ContentView: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .background(Color.gray)
+                .cornerRadius(10)
+
                 //Total cost
                 ZStack {
                     VStack(alignment: .leading, spacing: 15) {
@@ -58,6 +61,7 @@ struct ContentView: View {
                             .font(.system(size: 18, weight: .regular))
                             .padding(.horizontal)
                             .padding(.top)
+
                         Text("0,00")
                             .font(.system(size: 22, weight: .bold))
                             .padding(.horizontal)
@@ -66,20 +70,36 @@ struct ContentView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(Color.white)
                     .border(Color.gray, width: 1)
+                    .cornerRadius(8)
+
                 }
                 .frame(maxWidth: .infinity)
-                .background(Color.red)
+
             }
-            //Add cost Button
 
-            
-
-            
-            
-
-
+            //No Costs
+            Image("coindraw")
+                .resizable()
+                .frame(height:300)
+            Text("Click on the button bellow and add a cost")
+                .foregroundColor(.gray)
             
             Spacer()
+            
+            //Add cost Button
+            Button {
+                //add action
+                print("Button Clicked")
+            } label: {
+                Text("Add Costs")
+                    .frame(maxWidth: .infinity)
+                       .font(.system(size: 18, weight: .bold))
+                       .foregroundColor(.white)
+                       .padding()
+                       .background(Color.black)
+                       .cornerRadius(10)
+            }
+        
         } .padding(.horizontal)
         
         
