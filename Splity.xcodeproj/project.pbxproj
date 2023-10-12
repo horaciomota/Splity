@@ -16,7 +16,7 @@
 		3D00111A2AD8053F00F0314E /* SplityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0011192AD8053F00F0314E /* SplityUITestsLaunchTests.swift */; };
 		3D00112C2AD8194200F0314E /* AddCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00112B2AD8194200F0314E /* AddCostView.swift */; };
 		3D00112E2AD829EB00F0314E /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00112D2AD829EB00F0314E /* teste.swift */; };
-		3D89DFC12AD83A6C009BC2FB /* AddCostManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFC02AD83A6C009BC2FB /* AddCostManual.swift */; };
+		3D89DFC12AD83A6C009BC2FB /* AddCostManualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFC02AD83A6C009BC2FB /* AddCostManualView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		3D0011192AD8053F00F0314E /* SplityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D00112B2AD8194200F0314E /* AddCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCostView.swift; sourceTree = "<group>"; };
 		3D00112D2AD829EB00F0314E /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
-		3D89DFC02AD83A6C009BC2FB /* AddCostManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCostManual.swift; sourceTree = "<group>"; };
+		3D89DFC02AD83A6C009BC2FB /* AddCostManualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCostManualView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +149,7 @@
 				3D0010FD2AD8053D00F0314E /* ContentView.swift */,
 				3D0011292AD805AA00F0314E /* Home */,
 				3D00112A2AD818D700F0314E /* AddCost */,
+				3D89DFC22AD83AF8009BC2FB /* AddCostManual */,
 				3D00112D2AD829EB00F0314E /* teste.swift */,
 			);
 			path = View;
@@ -165,9 +166,16 @@
 			isa = PBXGroup;
 			children = (
 				3D00112B2AD8194200F0314E /* AddCostView.swift */,
-				3D89DFC02AD83A6C009BC2FB /* AddCostManual.swift */,
 			);
 			name = AddCost;
+			sourceTree = "<group>";
+		};
+		3D89DFC22AD83AF8009BC2FB /* AddCostManual */ = {
+			isa = PBXGroup;
+			children = (
+				3D89DFC02AD83A6C009BC2FB /* AddCostManualView.swift */,
+			);
+			name = AddCostManual;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +312,7 @@
 				3D0010FE2AD8053D00F0314E /* ContentView.swift in Sources */,
 				3D0010FC2AD8053D00F0314E /* SplityApp.swift in Sources */,
 				3D00112E2AD829EB00F0314E /* teste.swift in Sources */,
-				3D89DFC12AD83A6C009BC2FB /* AddCostManual.swift in Sources */,
+				3D89DFC12AD83A6C009BC2FB /* AddCostManualView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

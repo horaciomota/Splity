@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AddCostView: View {
     let progress: Double = 0.3
+    
     @State private var costDescription: String = ""
     @State private var costValue: String = ""
     @State private var selectedDate = Date()
@@ -97,7 +98,7 @@ struct AddCostView: View {
 
                 
                 //Next Button
-                    NavigationLink(destination: ContentView()) {
+                    NavigationLink(destination: AddCostManualView()) {
                         Text("Next")
                             .frame(maxWidth: .infinity)
                             .font(.system(size: 18, weight: .bold))
