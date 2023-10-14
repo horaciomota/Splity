@@ -12,16 +12,13 @@ struct AddMembers: View {
     let progress: Double = 0.6
     
     @State private var costDescription: String = ""
-    @State private var costValue: String = ""
-    @State private var selectedDate = Date()
-    
 
     var body: some View {
         NavigationStack {
             VStack {
                 HStack {
                     //Add cost title
-                    Text("Who we split among")
+                    Text("Who we split among?")
                         .font(.system(size: 22, weight: .bold))
                     Spacer()
                 }
@@ -44,7 +41,7 @@ struct AddMembers: View {
                 
                 VStack (alignment: .leading) {
                     //Group Name DROPDOWN
-                    TextField("Group Name", text: $costDescription)
+                    TextField("Create a group name", text: $costDescription)
                         .padding()
                         .background(Color.gray.opacity(0.2))
                         .cornerRadius(10)
@@ -80,7 +77,7 @@ struct AddMembers: View {
                         
                         
                         //Next Button
-                        NavigationLink(destination: AddMembers()) {
+//                        NavigationLink(destination: AddMembers()) {
                             Text("Next")
                                 .frame(maxWidth: .infinity)
                                 .font(.system(size: 18, weight: .bold))
@@ -88,7 +85,7 @@ struct AddMembers: View {
                                 .padding()
                                 .background(Color.black)
                                 .cornerRadius(10)
-                        }
+//                        }
                         
                     }
                     

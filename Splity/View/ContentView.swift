@@ -15,6 +15,8 @@ struct ContentView: View {
             VStack () {
                 HStack {
                     Image(systemName: "bell")
+                        .imageScale(.large)
+
                     Spacer()
                   Image("profilepic")
                         .resizable()

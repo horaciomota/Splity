@@ -148,8 +148,6 @@
 		3D0011272AD8055B00F0314E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3D89DFC62AD84837009BC2FB /* MainProfileCard */,
-				3D89DFC32AD84322009BC2FB /* MemberCard */,
 				3D0011292AD805AA00F0314E /* Home */,
 				3D00112A2AD818D700F0314E /* AddCost */,
 				3D89DFC22AD83AF8009BC2FB /* AddCostManual */,
@@ -177,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				3D89DFC02AD83A6C009BC2FB /* AddMembers.swift */,
+				3D89DFC62AD84837009BC2FB /* MainProfileCard */,
+				3D89DFC32AD84322009BC2FB /* MemberCard */,
 			);
 			name = AddCostManual;
 			sourceTree = "<group>";
